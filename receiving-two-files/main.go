@@ -7,19 +7,25 @@ import (
 
 func check(e error){
 	if e != nil {
-		panic(e)
+		fmt.Println("An Error occured")
+		os.Exit(1)
 	}
 }
 
 func two(file1, file2 string){
 	f1, err := os.ReadFile(file1)
 	check(err)
-	fmt.Println(string(f1))
 
+	f1_result := string(f1)
 
-	f2, err := os.ReadFile(file2)
+	f2, err := os.Create(file2)
 	check(err)
-	fmt.Println(string(f2))
+	fmt.Println("Copied Successfully at the address:", f2)
+
+	f2_result, err := f2.WriteString(f1_result)
+	check(err)
+
+	fmt.Println(f2_result)
 }
 
 func main(){
