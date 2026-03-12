@@ -1,0 +1,16 @@
+In this project you will use some of your old functions made in your old repository. You will use them with the objective of making a simple text completion/editing/auto-correction tool.
+
+One more detail. This time the project will be corrected by auditors. The auditors will be other students and you will be an auditor as well.
+
+We advise you to create your own tests for yourself and for when you will correct your auditees.
+
+Simply add 66 and 2 and you will see the result is 68.
+
+
+It was the best of times, it was the worst of TIMES, it was the age of wisdom, it was the age of foolishness (cap, 6), it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of darkness, it was the spring of hope, IT WAS THE (low, 3) winter of despair.
+
+Punctuation tests are... kinda boring, what do you think?
+
+"I am exactly how they describe me: 'awesome'"
+
+There it was. An amazing rock!
